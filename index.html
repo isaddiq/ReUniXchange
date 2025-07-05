@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReUniXchange - Privacy Policy</title>
+    <meta name="description" content="Privacy Policy for ReUniXchange - Autodesk Revit to Unity integration tool for AEC professionals">
+    <meta name="keywords" content="ReUniXchange, Revit, Unity, AEC, BIM, Privacy Policy, Building Information Modeling">
+    
+    <style>
+        :root {
+            --primary-color: #2C3E50;
+            --secondary-color: #3498DB;
+            --accent-color: #E74C3C;
+            --text-color: #2C3E50;
+            --light-bg: #F8F9FA;
+            --border-color: #E9ECEF;
+            --shadow: 0 2px 10px rgba(0,0,0,0.1);
+            --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background: var(--light-bg);
+            font-size: 16px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            background: var(--gradient);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            opacity: 0.3;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            margin-bottom: 0.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            font-weight: 300;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Main Content */
+        .main-content {
+            background: white;
+            margin: -2rem auto 2rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            position: relative;
+            z-index: 2;
+        }
+
+        .content-header {
+            background: var(--primary-color);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .content-header h2 {
+            font-size: 1.8rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+        }
+
+        .last-updated {
+            background: var(--secondary-color);
+            color: white;
+            padding: 0.8rem 2rem;
+            font-weight: 500;
+            border-radius: 6px;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+
+        .content-body {
+            padding: 3rem 2rem;
+        }
+
+        .intro-text {
+            background: var(--light-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--secondary-color);
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+
+        .section {
+            margin-bottom: 2.5rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 2rem;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .section h3 {
+            color: var(--primary-color);
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section-number {
+            background: var(--secondary-color);
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+
+        .section p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        .section ul {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+
+        .section li {
+            margin-bottom: 0.8rem;
+            position: relative;
+        }
+
+        .section li::marker {
+            color: var(--secondary-color);
+        }
+
+        /* Highlight boxes */
+        .highlight-box {
+            background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
+            border: 1px solid #BBDEFB;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            position: relative;
+        }
+
+        .highlight-box::before {
+            content: "📋";
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            background: white;
+            padding: 0 10px;
+            font-size: 1.2rem;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background: var(--primary-color);
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+
+        .contact-section h3 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 6px;
+            border-left: 4px solid var(--secondary-color);
+        }
+
+        .contact-info p {
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info .email {
+            color: #74C0FC;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-info .email:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: #666;
+            background: var(--light-bg);
+            border-top: 1px solid var(--border-color);
+        }
+
+        .footer p {
+            margin-bottom: 0.5rem;
+        }
+
+        .aec-badge {
+            background: var(--gradient);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: inline-block;
+            margin: 0.5rem 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 15px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content-body {
+                padding: 2rem 1.5rem;
+            }
+            
+            .section h3 {
+                font-size: 1.2rem;
+            }
+            
+            .main-content {
+                margin: -1rem auto 1rem;
+            }
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Print styles */
+        @media print {
+            .header {
+                background: var(--primary-color) !important;
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+            }
+            
+            .main-content {
+                box-shadow: none;
+                margin: 0;
+            }
+            
+            .section {
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>ReUniXchange</h1>
+            <p class="subtitle">Revit-Unity Integration Tool for AEC Professionals</p>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="content-header">
+            <h2>Privacy Policy</h2>
+            <span class="last-updated">Last Updated: July 2025</span>
+        </div>
+
+        <div class="content-body">
+            <div class="intro-text">
+                This Privacy Policy explains how ReUniXchange ("the App", "we", "our", or "us"), developed by Saddiq Ur Rehman, handles your data when you use the App in Autodesk Revit and in connection with Unity. By using ReUniXchange, you agree to the practices described in this Privacy Policy.
+            </div>
+
+            <section class="section">
+                <h3><span class="section-number">1</span>Information We Collect</h3>
+                <p><strong>ReUniXchange does not collect any personal data.</strong> The App operates entirely on your local machine and only interacts with Autodesk Revit and Unity project data as explicitly instructed by the user.</p>
+                
+                <p>However, to perform its functionality, the App accesses the following types of non-personal, model-specific data:</p>
+                
+                <div class="highlight-box">
+                    <ul>
+                        <li><strong>Element IDs, types, categories, and family names</strong></li>
+                        <li><strong>Parameter values</strong> (including shared parameters such as ModularID)</li>
+                        <li><strong>Material names, textures, and render settings</strong></li>
+                        <li><strong>Geometry</strong> from the active 3D Revit view</li>
+                        <li><strong>View names and visibility settings</strong></li>
+                        <li><strong>Group names and component hierarchy</strong></li>
+                        <li><strong>Locally exported data files:</strong> .csv, .obj, .mtl, .xml, and image textures</li>
+                    </ul>
+                </div>
+                
+                <p>This data is used solely for the purpose of enabling the App's core features: metadata extraction, 3D geometry export, material packaging, and bidirectional data exchange between Revit and Unity.</p>
+            </section>
+
+            <section class="section">
+                <h3><span class="section-number">2</span>How We Use the Data</h3>
+                <p>All data accessed by ReUniXchange is used locally and exclusively for the following purposes:</p>
+                <ul>
+                    <li>Assigning modular identifiers to Revit groups</li>
+                    <li>Exporting structured metadata to .csv for Unity integration</li>
+                    <li>Exporting materials to .mtl and texture formats</li>
+                    <li>Exporting geometry to .obj for Unity import</li>
+                    <li>Re-applying Unity-side changes back into Revit via .xml</li>
+                </ul>
+                <p><strong>The App does not collect, transmit, or store any user data on external servers.</strong></p>
+            </section>
+
+            <section class="section">
+                <h3><span class="section-number">3</span>Data Sharing and Third Parties</h3>
+                <p>ReUniXchange does not use any third-party analytics tools, SDKs, advertising networks, or external APIs. <strong>The App functions completely offline</strong> and does not transmit any data to the developer or any third party.</p>
+                <p>If in the future any external services are integrated (e.g., cloud storage or analytics), they will be clearly disclosed, and such third parties will be contractually required to adhere to equal or stronger data protection standards as described in this policy.</p>
+            </section>
+
+            <section class="section">
+                <h3><span class="section-number">4</span>Data Retention and Deletion</h3>
+                <p><strong>ReUniXchange does not retain any data.</strong> All data and files generated by the App (e.g., metadata, materials, geometry, XML) are:</p>
+                <ul>
+                    <li>Stored locally in user-specified export paths</li>
+                    <li>Under the full control of the user</li>
+                    <li>Not automatically uploaded, backed up, or synchronized by the App</li>
+                </ul>
+                <p>You may delete these files at any time by navigating to their saved location.</p>
+                <p>Because no personal data is collected or stored, there is no data retained by the developer that can be requested for deletion.</p>
+            </section>
+
+            <section class="section">
+                <h3><span class="section-number">5</span>User Consent and Data Control</h3>
+                <p>Since the App does not collect any personal data, no consent is required under current operation. If future updates introduce optional features involving personal data (such as cloud syncing or analytics), users will be prompted for explicit opt-in consent before any data is collected or transmitted.</p>
+                <p>Users will always have the right to:</p>
+                <ul>
+                    <li>Revoke consent (if given)</li>
+                    <li>Request deletion of any data stored (currently not applicable)</li>
+                    <li>Request information about what data is being processed (currently none)</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h3><span class="section-number">6</span>Children's Privacy</h3>
+                <p>ReUniXchange is intended for professional and academic use by adults in the <span class="aec-badge">AEC</span> and software development fields. The App is not directed toward children under 13, and it does not knowingly collect any data from children.</p>
+            </section>
+
+            <section class="section">
+                <h3><span class="section-number">7</span>Changes to This Privacy Policy</h3>
+                <p>We may update this Privacy Policy occasionally to reflect improvements, regulatory changes, or future feature additions. Any changes will be posted publicly, and the update date will be revised accordingly.</p>
+            </section>
+
+            <section class="section">
+                <h3><span class="section-number">8</span>Contact Information</h3>
+                <div class="contact-section">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-info">
+                        <p><strong>Saddiq Ur Rehman</strong></p>
+                        <p>Developer of ReUniXchange</p>
+                        <p>PhD Candidate, Department of Architecture</p>
+                        <p>Kyung Hee University</p>
+                        <p>Email: <a href="mailto:saddiqurrehman@khu.ac.kr" class="email">saddiqurrehman@khu.ac.kr</a></p>
+                    </div>
+                    <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.9;">
+                        For any questions, feedback, or concerns regarding this Privacy Policy or your data, please don't hesitate to reach out.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p><strong>ReUniXchange</strong> - Bridging BIM and Game Development</p>
+            <p>Empowering AEC professionals with seamless Revit-Unity integration</p>
+            <p style="font-size: 0.85rem; margin-top: 1rem; opacity: 0.7;">
+                © 2025 Saddiq Ur Rehman. Built for the Architecture, Engineering & Construction community.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll enhancement for internal links
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add some interactive enhancements
+            const sections = document.querySelectorAll('.section');
+            
+            // Intersection Observer for fade-in animation
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+            
+            // Initialize sections with animation
+            sections.forEach(section => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(20px)';
+                section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(section);
+            });
+            
+            // Email link enhancement
+            const emailLink = document.querySelector('.email');
+            if (emailLink) {
+                emailLink.addEventListener('click', function(e) {
+                    // Add a subtle animation feedback
+                    this.style.transform = 'scale(0.98)';
+                    setTimeout(() => {
+                        this.style.transform = 'scale(1)';
+                    }, 150);
+                });
+            }
+            
+            // Add print functionality
+            const printBtn = document.createElement('button');
+            printBtn.innerHTML = '🖨️ Print Policy';
+            printBtn.style.cssText = `
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background: var(--secondary-color);
+                color: white;
+                border: none;
+                padding: 12px 20px;
+                border-radius: 25px;
+                cursor: pointer;
+                font-weight: 600;
+                box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+                transition: all 0.3s ease;
+                z-index: 1000;
+            `;
+            
+            printBtn.addEventListener('click', () => window.print());
+            printBtn.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-2px)';
+                this.style.boxShadow = '0 6px 20px rgba(52, 152, 219, 0.4)';
+            });
+            printBtn.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+                this.style.boxShadow = '0 4px 15px rgba(52, 152, 219, 0.3)';
+            });
+            
+            document.body.appendChild(printBtn);
+        });
+    </script>
+</body>
+</html>
