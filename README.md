@@ -16,7 +16,7 @@ ReUniXchange is a custom Autodesk Revit plugin designed to facilitate seamless e
 
 ## 🛠️ Requirements
 
-- **Autodesk Revit 2023 or 2024**
+- **Autodesk Revit 2022, 2023, 2024, 2025, or 2026 **
 - .NET Framework 4.8
 - Visual Studio (for development and compilation)
 - Admin access to install Revit plugins
