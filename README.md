@@ -108,4 +108,6 @@ Feedback, suggestions, and contributions are welcome! Please open an issue or pu
 
 ## 🎥 Demo Video
 
-Watch ReUniXchange in action: [YouTube Demo](https://www.youtube.com/watch?v=CQp8Uhdefsk&t=56s)
+[![ReUniXchange Demo](https://img.youtube.com/vi/CQp8Uhdefsk/maxresdefault.jpg)](https://www.youtube.com/watch?v=CQp8Uhdefsk&t=56s)
+
+*Click the image above to watch the demonstration*
