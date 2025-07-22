@@ -96,7 +96,6 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 Saddiq Ur Rehman  
 PhD Researcher, Kyung Hee University  
-[LinkedIn](#) | [Email](#)
 
 ---
 
