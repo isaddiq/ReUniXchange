@@ -2,6 +2,8 @@
 
 ReUniXchange is a custom Autodesk Revit plugin designed to facilitate seamless export of Building Information Modeling (BIM) data, including geometry and semantic metadata, for use in Unity-based XR (AR/VR/MR) environments. This tool enables bidirectional data flow by converting Revit models into Unity-compatible formats and preserving BIM semantics for use in immersive design review, construction simulation, and facility management.
 
+The plugin is available on autodesk store, https://apps.autodesk.com/RVT/en/Detail/Index?id=6622158299438821562&appLang=en&os=Win64
+
 ---
 
 ## ✨ Key Features
